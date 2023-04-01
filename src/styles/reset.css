@@ -1,0 +1,7 @@
+body, header, p, button, div, h1, span, h2, section, h3, ul ,li ,footer {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border: 0;
+    font-family: var(--fontFamily);
+}
