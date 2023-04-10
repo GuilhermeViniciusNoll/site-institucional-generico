@@ -3,15 +3,15 @@
 :root {
 
     /* Fonte */
-    --fontFamily: 'Inter', sans-serif;
-    --text1FontSize: 28px;
-    --text1LineHeight: 44px;
-    --text2FontSize: 20px;
-    --text2LineHeight: 30px;
+    --font-Family: 'Inter', sans-serif;
+    --text1-Font-Size: 28px;
+    --text1-Line-Height: 44px;
+    --text2-Font-Size: 20px;
+    --text2-Line-Height: 30px;
 
     /* Color */
-    --primaryColor: #4C6EF5;
-    --secondColor: #364FC7;
+    --primary-Color: #4C6EF5;
+    --second-Color: #364FC7;
 
     /* Grey Scale */
     --grey0: #191C1F;

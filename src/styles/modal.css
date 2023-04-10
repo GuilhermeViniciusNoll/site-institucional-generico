@@ -1,0 +1,102 @@
+/* MODAL */
+
+#container-modal {
+
+    padding: 0px;
+    border: none;
+}
+
+.modal-edit{
+
+    background-color: var(--grey1);
+
+    border: 2px solid var(--primary-Color);
+
+    width: 504px;
+    height: 397px;
+    padding: 40px 28px;
+    gap: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+#container-modal::backdrop {
+
+    background-color: #191C1F99;
+}
+
+.container-modal__container {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-modal__title {
+
+    color: var(--grey5);
+}
+
+.container-modal__close-modal {
+
+    background-color: var(--grey2);
+    color: var(--grey3);
+
+    width: 38px;
+    height: 32px;
+    padding: 0px 12px;
+
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.container-modal__paragraph {
+
+    color: var(--grey3);
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+.container-modal__email {
+
+    width: 448px;
+    height: 60px;
+    padding: 14px 20px;
+
+    background-color: var(--grey0);
+    color: var(--grey3);
+
+    border: solid 1px var(--grey0);
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+
+}
+
+.container-modal__email:focus::placeholder {
+
+    color: var(--grey0);
+}
+
+.container-modal__data-input {
+
+    width: 490px;
+    height: 60px;
+    padding: 0px 32px;
+
+    background-color: var(--primary-Color);
+    color: var(--grey5);
+
+    border: 1px solid var(--primary-Color);
+
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+}

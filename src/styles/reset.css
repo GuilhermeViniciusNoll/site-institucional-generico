@@ -3,5 +3,5 @@ body, header, p, button, div, h1, span, h2, section, h3, ul ,li ,footer {
     margin: 0;
     list-style: none;
     border: 0;
-    font-family: var(--fontFamily);
+    font-family: var(--font-Family);
 }
