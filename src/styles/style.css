@@ -33,7 +33,7 @@
 
 .container-header__button {
 
-    height: 60px;
+    min-height: 60px;
     padding: 0px 32px 0px 32px;
     margin-right: 236px;
 
@@ -135,7 +135,7 @@ main {
 
     background-color: var(--grey0);
 
-    height: 284px;
+    min-height: 284px;
 }
 
 .container-second__title {
@@ -170,12 +170,13 @@ main {
 
     background-color: var(--grey1);
 
-    height: 1175px;
+    min-height: 1175px;
     padding: 100px 236px;
     gap: 169px;
 
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 150px;
 }
 
 .container-third__container-FAQ {
@@ -225,8 +226,8 @@ main {
 
 .container-third__container-question {
 
-    width: 614px;
-    height: 968px;
+    max-width: 614px;
+    min-height: 968px;
 
     display: flex;
     flex-direction: column;
@@ -236,8 +237,8 @@ main {
 
 .container-question__container-span {
 
-    width: 614px;
-    height: 197px;
+    max-width: 614px;
+    min-height: 197px;
 
     display: flex;
     flex-direction: column;
@@ -272,49 +273,50 @@ main {
 
     background-color: var(--grey1);
 
-    height: 1040px;
-    padding: 100px 236px;
+    width: 100%;
+    height: auto;
+    padding: 10% 0px;
+   
 
     display: flex;
-    gap: 24px;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
 }
 
 .container-four__container-students {
-
-    width: 746px;
-    height: 840px;
+    
+    max-width: 746px;
+    height: auto;
+    
 
 }
 
 .container-four__ul {
 
-    width: 746px;
-    height: 840px;
+    
+    min-height: 840px;
 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    gap: 35px;
 
 }
 
 .container-four__li {
-
-    width: 746px;
-    height: 135px;
-
+   
 }
 
 .container-four__container-data {
 
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    gap: 20px;
 
 }
 
 .container-four__container-span {
-
-    width: 197px;
-    height: 77px;
 }
 
 .container-four__title {
@@ -323,18 +325,21 @@ main {
     font-size: 28px;
     size: 28px;
 
+    white-space: nowrap;
+
     color: var(--grey5);
 }
 
 .container-four__paragraph-year {
 
     color: var(--grey3);
+
+    white-space: nowrap;
 }
 
 .container-four__paragraph-description {
-
-    width: 492px;
-    height: 135px;
+    
+    max-width: 550px;
 
     font-weight: 400px;
     font-size: 18px;
@@ -344,11 +349,10 @@ main {
 }
 
 .container-four__container-article {
-
-    width: 446px;
-    min-width: 250px;
-    height: 420px;
-    padding: 50px 52px 50px;
+    
+    max-width: 446px;
+    max-height: 420px;
+    padding: 50px 52px; 
 
     display: flex;
     flex-direction: column;
